@@ -1,50 +1,43 @@
 ---
-interface Props {
-	title: string;
-}
-
-const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN" class="min-h-full h-full w-full text-[#dddddd] m-0 dark bg-black">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+		<title>欲火调控 - 巧掌欢愉之术</title>
+		<meta name="description" content="Heat Control by Howling-Strawberries">
+		<link href="/src/css/styles.css" rel="stylesheet">
+	    <link href="/src/css/styles_m.css" rel="stylesheet">
+		<link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+		<script  type="text/javascript" src="/src/js/buttplug.min.js"></script>
+		<script  type="text/javascript" src="/src/js/ButtplugConnection.js"></script>
+		<script type="text/javascript" src="/src/js/CharDialog.js"></script>
+		<script  type="text/javascript" src="/src/js/FlashManager.js"></script>
+		<script  type="text/javascript" src="/src/js/GameModeEndurance.js"></script>
+		<script  type="text/javascript" src="/src/js/GameModeNormal.js"></script>
+		<script  type="text/javascript" src="/src/js/GameModeSlideshow.js"></script>
+		<script  type="text/javascript" src="/src/js/HoldableButton.js"></script>
+		<script  type="text/javascript" src="/src/js/ImageBrowser.js"></script>
+		<script  type="text/javascript" src="/src/js/ImageManager.js"></script>
+		<script  type="text/javascript" src="/src/js/ListManager.js"></script>
+		<script  type="text/javascript" src="/src/js/NotifMessage.js"></script>
+		<script  type="text/javascript" src="/src/js/Popup.js"></script>
+		<script  type="text/javascript" src="/src/js/ProgressBarManager.js"></script>
+		<script  type="text/javascript" src="/src/js/RangeControl.js"></script>
+		<script  type="text/javascript" src="/src/js/RNGHat.js"></script>
+		<script  type="text/javascript" src="/src/js/RNGList.js"></script>
+		<script  type="text/javascript" src="/src/js/State.js"></script>
+		<script  type="text/javascript" src="/src/js/SwipeDetection.js"></script>
+		<script  type="text/javascript" src="/src/js/TimeTracker.js"></script>
+		<script  type="text/javascript" src="/src/js/Visuals.js"></script>
+		<script  type="text/javascript" src="/src/js/main.js"></script>
 	</head>
-	<body>
+	<body class="min-h-full h-fit w-full text-lg leading-[1.42857] relative m-0">
 		<slot />
 	</body>
 </html>
-<style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>
