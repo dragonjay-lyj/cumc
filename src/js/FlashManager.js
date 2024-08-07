@@ -6,7 +6,7 @@ var FlashManager = {
 	isEnabled: true,
 	nMode: 0,
 	bSound: false,
-	soundTick: new Audio('src/assets/Tick.wav'),
+	soundTick: new Audio('https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/Tick.wav'),
 	
 	setEnabled: function(enabled)
 	{
