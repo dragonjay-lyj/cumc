@@ -20,8 +20,8 @@ var ImageBrowser = {
 	bIsBookmarkView: false,
 	removeConfirmation: false,
 	blacklistConfirmation: false,
-	strUrlDeleted: "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
-	strUrlNotFound: "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
+	strUrlDeleted: "https://gateway.pinata.cloud/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
+	strUrlNotFound: "https://gateway.pinata.cloud/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
 
 	editBlacklist: function()
 	{
