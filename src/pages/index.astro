@@ -276,16 +276,6 @@ import Layout from '../layouts/Layout.astro';
                             </div>
                         </div>
 
-						<div id="waline"></div>
-						<script type="module">
-						  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-					  
-						  init({
-							el: '#waline',
-							serverURL: 'https://com.dragonjay.top',
-						  });
-						</script>
-
                         <div id="advancedOptionsWrapper">
                             <div class="form-horizontal">
                                 <div class="form-group">
@@ -687,5 +677,14 @@ import Layout from '../layouts/Layout.astro';
                 </div>
             </div><div id="divNotificationContainerWrapper">
                 <div id="divNotificationContainer"></div>
-            </div><div id="divPopupContainer"></div>	  
+            </div><div id="divPopupContainer"></div>
+            <div id="waline"></div>
+						<script type="module">
+						  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+					  
+						  init({
+							el: '#waline',
+							serverURL: 'https://com.dragonjay.top',
+						  });
+						</script>	  
 </Layout>
