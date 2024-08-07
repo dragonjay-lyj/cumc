@@ -85,7 +85,7 @@ function getRandInteger(min, max)
 
 function setCharHead(headExpression)
 {
-	document.getElementById("imageHead").src = `/src/assets/head_${headExpression}_${strCharName}.avif`;
+	document.getElementById("imageHead").src = `https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/head_${headExpression}_${strCharName}.avif`;
 	document.getElementById("imageHead").style.removeProperty("display");
 }
 
@@ -800,7 +800,7 @@ function updateCharacter()
 	document.getElementById("spanCharName").textContent = strCharName;
 	
 	// Set character picture.
-	document.getElementById("imgIntro").setAttribute("src", `/src/assets/intro_${strCharName}.avif`);
+	document.getElementById("imgIntro").setAttribute("src", `https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/intro_${strCharName}.avif`);
 
 	// Set easter egg Lucario picture.
 	// Use local variable in case the global one changes while the picture is loading.
@@ -970,10 +970,10 @@ function onElectronFolderSelected(data) {
     divFolderInfo.style.setProperty("margin-top", "10px");
     divFolder.appendChild(divFolderInfo);
 
-    let strIconPath = "/src/assets/iconFolder.avif";
+    let strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolder.avif";
 
     if (data.bIncludeSubfolders) {
-        strIconPath = "/src/assets/iconFolderSub.avif";
+        strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolderSub.avif";
     }
 
     let imgFolder = document.createElement("img");
@@ -993,7 +993,7 @@ function onElectronFolderSelected(data) {
     buttonCancel.setAttribute("folderIndex", "" + nFolderIndex);
     buttonCancel.setAttribute("folderPath", filelist[0]);
     buttonCancel.setAttribute("type", "image");
-    buttonCancel.setAttribute("src", "/src/assets/iconCancel.avif");
+    buttonCancel.setAttribute("src", "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif");
     buttonCancel.style.setProperty("vertical-align", "middle");
     buttonCancel.style.setProperty("margin-top", "0px");
     buttonCancel.style.setProperty("width", "20px");
@@ -2050,7 +2050,7 @@ function onClickLoadList()
 	divListInfo.style.setProperty("margin-top", "10px");
 	divList.appendChild(divListInfo);
 	
-	let strIconPath = "/src/assets/iconFolder.avif";
+	let strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolder.avif";
 	
 	let imgList = document.createElement("img");
 	imgList.setAttribute("src", strIconPath);
@@ -2069,7 +2069,7 @@ function onClickLoadList()
 	let buttonCancel = document.createElement("input");
 	buttonCancel.setAttribute("listIndex", strSelectedList);
 	buttonCancel.setAttribute("type", "image");
-	buttonCancel.setAttribute("src", "/src/assets/iconCancel.avif");
+	buttonCancel.setAttribute("src", "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif");
 	buttonCancel.style.setProperty("vertical-align", "middle");
 	buttonCancel.style.setProperty("margin-top", "0px");
 	buttonCancel.style.setProperty("width", "20px");

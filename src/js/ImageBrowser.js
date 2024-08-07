@@ -20,8 +20,8 @@ var ImageBrowser = {
 	bIsBookmarkView: false,
 	removeConfirmation: false,
 	blacklistConfirmation: false,
-	strUrlDeleted: "/src/assets/iconCancel.avif",
-	strUrlNotFound: "/src/assets/iconNotFound.avif",
+	strUrlDeleted: "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif",
+	strUrlNotFound: "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconNotFound.avif",
 
 	editBlacklist: function()
 	{
