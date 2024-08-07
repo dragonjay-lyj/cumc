@@ -970,10 +970,10 @@ function onElectronFolderSelected(data) {
     divFolderInfo.style.setProperty("margin-top", "10px");
     divFolder.appendChild(divFolderInfo);
 
-    let strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolder.avif";
+    let strIconPath = "https://w3s.link/ipfs/QmRcRBcH8je2xk1j6DD7gGXLwyxeZmLLptY8Vsne44YSW2";
 
     if (data.bIncludeSubfolders) {
-        strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolderSub.avif";
+        strIconPath = "https://w3s.link/ipfs/Qma6M8rcff4P8GLEbgiTrGT9Kz2ab3siBeLUmAmhXWA4of";
     }
 
     let imgFolder = document.createElement("img");
@@ -993,7 +993,7 @@ function onElectronFolderSelected(data) {
     buttonCancel.setAttribute("folderIndex", "" + nFolderIndex);
     buttonCancel.setAttribute("folderPath", filelist[0]);
     buttonCancel.setAttribute("type", "image");
-    buttonCancel.setAttribute("src", "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif");
+    buttonCancel.setAttribute("src", "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4");
     buttonCancel.style.setProperty("vertical-align", "middle");
     buttonCancel.style.setProperty("margin-top", "0px");
     buttonCancel.style.setProperty("width", "20px");
@@ -2050,7 +2050,7 @@ function onClickLoadList()
 	divListInfo.style.setProperty("margin-top", "10px");
 	divList.appendChild(divListInfo);
 	
-	let strIconPath = "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconFolder.avif";
+	let strIconPath = "https://w3s.link/ipfs/QmRcRBcH8je2xk1j6DD7gGXLwyxeZmLLptY8Vsne44YSW2";
 	
 	let imgList = document.createElement("img");
 	imgList.setAttribute("src", strIconPath);
@@ -2069,7 +2069,7 @@ function onClickLoadList()
 	let buttonCancel = document.createElement("input");
 	buttonCancel.setAttribute("listIndex", strSelectedList);
 	buttonCancel.setAttribute("type", "image");
-	buttonCancel.setAttribute("src", "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif");
+	buttonCancel.setAttribute("src", "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4");
 	buttonCancel.style.setProperty("vertical-align", "middle");
 	buttonCancel.style.setProperty("margin-top", "0px");
 	buttonCancel.style.setProperty("width", "20px");

@@ -20,8 +20,8 @@ var ImageBrowser = {
 	bIsBookmarkView: false,
 	removeConfirmation: false,
 	blacklistConfirmation: false,
-	strUrlDeleted: "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconCancel.avif",
-	strUrlNotFound: "https://cdn.jsdelivr.net/gh/dragonjay-lyj/cumc@master/src/assets/iconNotFound.avif",
+	strUrlDeleted: "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
+	strUrlNotFound: "https://w3s.link/ipfs/QmXDnKVwexxbpReTBFUzX8htgWugSjJGmqCknP3ACnw8F4",
 
 	editBlacklist: function()
 	{
